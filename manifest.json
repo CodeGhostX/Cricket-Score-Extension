@@ -1,0 +1,11 @@
+{
+    "name":"First Chrome Extension",
+    "version": "1.0.0",
+    "description": "This is my First chrome extension just for demo",
+    "manifest_version": 3,
+    "author": "Abhishek kumar",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "My Chrome Extension"
+    }
+}

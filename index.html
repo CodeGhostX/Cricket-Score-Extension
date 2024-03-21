@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Score</title>
+    <style>
+      body {
+        width: 350px;
+        background-color: #FFFDCB;
+        font-family: cursive;
+      }
+      .status {
+        color: blue;
+        font-size: 20px;
+      }
+      .all-scores{
+        font-size: 18px;
+        color: green;
+      }
+      h2{
+        font-size: 24px;
+        color: #FAA300;
+      }
+      .additional{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .Matchtype{
+        background-color: #A0E9FF;
+        border-radius: 12px;
+        padding: 6px 10px 6px 10px;
+        color: #C21292;
+      }
+      .isEnded{
+        color: #C6DCBA;
+        padding: 6px 10px 6px 10px;
+        background-color: #A0E9FF;
+        border-radius: 12px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2 class="title"></h2>
+      <p class="status"></p>
+      <div class="all-scores">
+        <div class="first-innings"></div>
+        <div class="second-innings"></div>
+        <div class="third-innings"></div>
+        <div class="fourth-innings"></div>
+      </div>
+      <div class="additional">
+        <p class="Matchtype"></p>
+        <p class="isEnded"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
